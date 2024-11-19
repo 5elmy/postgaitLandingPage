@@ -9,10 +9,19 @@ import container2 from "../images/partners/illustration.jpg"
 import men from "../images/partners/mens.jpg"
 import circle from "../images/partners/circle.jpg"
 import star from "../images/partners/star.jpg"
+import {motion} from "framer-motion"
 export default function PartnersLandingPages() {
   return (
-   <section>
-  <div className='grid grid-cols-12 gap-2'>
+   <section
+ 
+   className='overflow-hidden'
+   >
+  <motion.div 
+ whileInView={{ opacity: 1, translateY: 0  }}
+ initial={{ opacity: 0, translateY: -150 }}
+ viewport={{ once: true, amount: 0.5 }}
+ transition={{ duration: 1.5, ease: "easeOut" }}
+  className='grid grid-cols-12 gap-2'>
     <div className='col-span-12 md:col-span-3 '>
         <Image src={map1} alt='map 1'/>
     </div>
@@ -29,8 +38,14 @@ export default function PartnersLandingPages() {
     <div className='col-span-12 md:col-span-3  flex justify-end items-center'>
     <Image src={map2} alt='map 2'/>
     </div>
-  </div>
-  <div className='grid grid-cols-12 gap-2 mt-10'>
+  </motion.div>
+  <motion.div 
+   whileInView={{ opacity: 1  }}
+   initial={{ opacity: 0}}
+   viewport={{ once: true, amount: 0.5 }}
+   transition={{ duration: 1.5, ease: "easeOut" }}
+  
+  className='grid grid-cols-12 gap-2 mt-10'>
     <div className='col-span-12 md:col-span-3 '>
         <Image src={container2} alt='container 1'/>
     </div>
@@ -65,7 +80,7 @@ export default function PartnersLandingPages() {
     <div className='col-span-12 md:col-span-3  flex justify-end items-center'>
     <Image src={container2} alt='container 2'/>
     </div>
-  </div>
+  </motion.div>
    </section>
   )
 }

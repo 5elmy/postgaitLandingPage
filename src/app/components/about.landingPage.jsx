@@ -4,31 +4,41 @@ import man from "../images/Home/man23years.svg"
 import Image from 'next/image'
 import {motion} from "framer-motion"
 export default function AboutLandingPage() {
-    const [isVisible, setIsVisible] = useState(false);
-    const sectionRef = useRef(null);
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-          ([entry]) => setIsVisible(entry.isIntersecting),
-          { threshold: 0.5 } // Trigger when 50% of the section is visible
-        );
+    // const [isVisible, setIsVisible] = useState(false);
+    // const sectionRef = useRef(null);
+    // useEffect(() => {
+    //     const observer = new IntersectionObserver(
+    //       ([entry]) => setIsVisible(entry.isIntersecting),
+    //       { threshold: 0.5 } // Trigger when 50% of the section is visible
+    //     );
     
-        if (sectionRef.current) {
-          observer.observe(sectionRef.current);
-        }
+    //     if (sectionRef.current) {
+    //       observer.observe(sectionRef.current);
+    //     }
     
-        return () => {
-          if (sectionRef.current) {
-            observer.unobserve(sectionRef.current);
-          }
-        };
-      }, []);
+    //     return () => {
+    //       if (sectionRef.current) {
+    //         observer.unobserve(sectionRef.current);
+    //       }
+    //     };
+    //   }, []);
     
   return (
-    <section ref={sectionRef} className='grid grid-cols-12 gap-5 py-12 relative z-10 overflow-hidden '>
-    <motion.div initial={{opacity:0 , translateX:-50 , translateY:-50}} animate={isVisible ?{opacity:1 , translateX:0 , translateY:0}:{opacity:0 , translateX:-50 , translateY:-50}} transition={{duration:1 ,  ease: "easeOut"  }} className="col-span-12  md:col-span-6 flex justify-center items-center p-5 md:p-0">
+    <section  className='grid grid-cols-12 gap-5 py-12 relative z-10 overflow-hidden '>
+    <motion.div  
+           whileInView={{opacity:1 , translateX:0 , translateY:0}}
+           initial={{opacity:0 , translateX:-50 , translateY:-50}}
+           viewport={{ once: true, amount: 0.5 }}
+           transition={{ duration: 1.5 , ease: "easeOut" }}
+  className="col-span-12  md:col-span-6 flex justify-center items-center p-5 md:p-0">
         <Image src={man} alt='experience' />
     </motion.div>
-    <motion.div initial={{opacity:0 , translateX:100 , translateY:-50}} animate={isVisible ?{opacity:1 , translateX:0 , translateY:0}:{opacity:0 , translateX:100 , translateY:-50}} transition={{duration:1 ,  ease: "easeOut"  }} className="col-span-12  md:col-span-6 pt-1 p-5 md:p-0">
+    <motion.div 
+           whileInView={{opacity:1 , translateX:0 , translateY:0}}
+           initial={{opacity:0 , translateX:100 , translateY:-50}}
+           viewport={{ once: true, amount: 0.5 }}
+           transition={{ duration: 1.5 , ease: "easeOut" }}
+ className="col-span-12  md:col-span-6 pt-1 p-5 md:p-0">
         <div className='flex  items-center gap-5' > <hr className='h-[2px] bg-[#FC746C] w-[80px] ' />
         <p className='font-[Roboto] text-[#FC746C] text-[24px]'>ABOUT US</p>
         </div>
