@@ -37,12 +37,12 @@ export default function AboutLandingPage() {
             <span className='text-[#FC746C] '>logistics</span>
         </p>
         <p className='text-[#949494] font-[Roboto] text-[18px] my-5'>
-        We leverage advanced smart technology to deliver a comprehensive fleet<br/> management solution, granting you full control over your vehicles anywhere <br/> in the city or remote areas like the Sa'adiya provinces. Our innovative system <br/> ensures seamless, secure operations, allowing you to achieve optimal <br/> efficiency and keep your fleet under control, wherever your business takes <br/> you.
+        We leverage advanced smart technology to deliver a comprehensive fleet<br/> management solution, granting you full control over your vehicles anywhere <br/> in the city or remote areas like the Sa&rsquo;adiya provinces. Our innovative system <br/> ensures seamless, secure operations, allowing you to achieve optimal <br/> efficiency and keep your fleet under control, wherever your business takes <br/> you.
 
         </p>
 
         <p className='text-[#949494] font-[Roboto] text-[18px] mt-8'>
-        This emphasizes the company's strengths in control, security, and efficiency,<br/> tailored to meet customer needs.
+        This emphasizes the company&rsquo;s strengths in control, security, and efficiency,<br/> tailored to meet customer needs.
         </p>
         <div className='flex justify-end items-center mt-2'>
         <ul className="mt-2 flex justify-center gap-6  md:w-[50%] md:gap-8">

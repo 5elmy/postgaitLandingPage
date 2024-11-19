@@ -2,8 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import dashboard from "../images/manage/object (1).svg"
 import shop from "../images/manage/Group.svg" 
-// import { CiHome } from "react-icons/ci";
-// import { PiBuildingApartment } from "react-icons/pi";
+
 export default function ManageShipmentsLandingPage() {
   return (
     <>
@@ -11,7 +10,7 @@ export default function ManageShipmentsLandingPage() {
         <h2 className='text-[#4D1A2D] font-[Cairo] text-[32px] font-bold text-center'>An integrated control panel to manage your shipments easily and quickly
         </h2>
         <p className='font-[Cairo] text-[#666666] text-center text-[17px] '>
-        <span className='text-[#FC746C]'>MENA’s #1</span>With the #1 shipping gateway in the MENA region, you have full control over your shipments through a simple and <br/>
+        <span className='text-[#FC746C]'>MENA&rsquo;s #1</span>With the #1 shipping gateway in the MENA region, you have full control over your shipments through a simple and <br/>
          effective web interface. The control panel enables you to manage orders, track shipments, analyze performance, and make <br/>
           returns in cooperation with multiple shipping companies, to facilitate your shipping experience from start to finish.
         </p>
@@ -35,7 +34,7 @@ export default function ManageShipmentsLandingPage() {
     </div>
 
     <p className='text-[#263238] text-center font-[Cairo] text-[16px]'>
-    Your store’s homepage provides an overview of your business performance. It displays detailed statistics on the number of customers, completed shipments, and the most<br/>
+    Your store&rsquo;s homepage provides an overview of your business performance. It displays detailed statistics on the number of customers, completed shipments, and the most<br/>
      popular cities, helping you effectively track orders and make informed decisions. You can easily monitor growth and improvements with interactive graphical indicators,<br/> making store management smoother and more accurate.
 
     </p>
@@ -61,7 +60,7 @@ export default function ManageShipmentsLandingPage() {
     <div className=' md:flex justify-around items-center bg-[#FC746C] my-5'>
     <div className=' py-8'>
         <h2 className='font-[Poppins] text-[40px] text-center text-white font-bold'>“Explore endless possibilities – sign up today!”</h2>
-        <p className='font-[Poppins] my-3 text-[16px] text-center font-semibold text-white '>Sign up now to access advanced features, manage your shipments easily, and track your store's performance <br/> through a comprehensive dashboard!
+        <p className='font-[Poppins] my-3 text-[16px] text-center font-semibold text-white '>Sign up now to access advanced features, manage your shipments easily, and track your store&rsquo;s performance <br/> through a comprehensive dashboard!
         </p>
     </div>
         <div className='flex justify-center items-center md:block'>
