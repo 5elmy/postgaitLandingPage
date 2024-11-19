@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from "../../images/NavbarImages/postgaitLogo.svg"
-// import { CiLocationOn } from "react-icons/ci";
-// import { SlPhone } from "react-icons/sl";
+
 export default function Footer() {
   return (
 
@@ -16,7 +15,7 @@ export default function Footer() {
         </div>
 
         <p className="mt-6 font-[Poppins] max-w-md text-center leading-relaxed text-[#461A2D] sm:max-w-xs sm:text-left">
-        We lead fleets using smarter technology to anything from anywhere in your city to local Sa'adiya provinces or to the international world 
+        We lead fleets using smarter technology to anything from anywhere in your city to local Sa&rsquo;adiya provinces or to the international world 
         </p>
             <p className='mt-8 font-[Inter] text-[13px] text-[#461A2D]'>Follow Postgait on Social Media:</p>
         <ul className="mt-2 flex justify-center gap-6  md:w-[50%] md:gap-8">
