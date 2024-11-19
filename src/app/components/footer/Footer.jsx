@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from "../../images/NavbarImages/postgaitLogo.svg"
-import { CiLocationOn } from "react-icons/ci";
-import { SlPhone } from "react-icons/sl";
+// import { CiLocationOn } from "react-icons/ci";
+// import { SlPhone } from "react-icons/sl";
 export default function Footer() {
   return (
 
@@ -137,7 +137,7 @@ export default function Footer() {
           <li
               className="flex items-start  justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
             >
-            <CiLocationOn className='text-lg' />
+            {/* <CiLocationOn className='text-lg' /> */}
 
               <address className="-mt-0.5  md:flex-1 not-italic text-[#461A2D] font-[Poppins]">
               Jeddah, Saudi Arabia
@@ -149,7 +149,7 @@ export default function Footer() {
                 className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                 href="#"
               >
-               <SlPhone className='text-lg'/>
+               {/* <SlPhone className='text-lg'/> */}
 
                 <span className="md:flex-1 text-[#461A2D] font-[Poppins]">+966 055 021 0280</span>
               </a>

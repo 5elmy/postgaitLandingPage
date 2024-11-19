@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import curve from "../images/Home/Vector 32.svg" 
-import { FaShippingFast } from "react-icons/fa";
+// import { FaShippingFast } from "react-icons/fa";
 import {motion} from "framer-motion"
 import AboutLandingPage from '../components/about.landingPage';
 import CustomerReviewsLandingPage from '../components/Customerreviews.LandingPage';
@@ -57,7 +57,7 @@ initial={{opacity:0 , y:-300 , rotate:50}} animate={{opacity:1 , y:0 , rotate:0 
 className=" flex items-center font-[sarabun] rounded border-none bg-[#FC746C]  px-16 py-3 text-lg font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-[#FC746d]"
 
 >
-<FaShippingFast className='' />
+{/* <FaShippingFast className='' /> */}
 <span className='ps-2 pr-3'> Start Now</span>
 </motion.button>
 

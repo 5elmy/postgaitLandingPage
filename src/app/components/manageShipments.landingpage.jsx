@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import dashboard from "../images/manage/object (1).svg"
 import shop from "../images/manage/Group.svg" 
-import { CiHome } from "react-icons/ci";
-import { PiBuildingApartment } from "react-icons/pi";
+// import { CiHome } from "react-icons/ci";
+// import { PiBuildingApartment } from "react-icons/pi";
 export default function ManageShipmentsLandingPage() {
   return (
     <>
@@ -40,13 +40,13 @@ export default function ManageShipmentsLandingPage() {
 
     </p>
     <div className='md:flex relative  justify-center items-center my-10 md:my-8 w-[330px] md:w-full '>
-        <p className='transform absolute top-5 -left-12 md:left-[220px] -rotate-45  bg-[#FC746C] rounded-md h-[35px] w-[180px]  md:w-[180px] text-center flex justify-center items-center gap-2 text-white'> <CiHome /> Dashboard</p>
+        <p className='transform absolute top-5 -left-12 md:left-[220px] -rotate-45  bg-[#FC746C] rounded-md h-[35px] w-[180px]  md:w-[180px] text-center flex justify-center items-center gap-2 text-white'>  Dashboard</p>
 
     <Image src={dashboard} alt='dashboard'/>
 
     </div>
     <div className='md:flex relative justify-center items-center my-10 md:my-8 w-[330px] md:w-full '>
-        <p className='transform absolute top-5 -right-10 md:right-[220px] rotate-45  bg-[#FC746C] rounded-md h-[35px] w-[180px]  md:w-[180px] text-center flex justify-center items-center gap-2 text-white'> <PiBuildingApartment /> Shop</p>
+        <p className='transform absolute top-5 -right-10 md:right-[220px] rotate-45  bg-[#FC746C] rounded-md h-[35px] w-[180px]  md:w-[180px] text-center flex justify-center items-center gap-2 text-white'>  Shop</p>
 
     <Image src={shop} alt='Shop'/>
 
