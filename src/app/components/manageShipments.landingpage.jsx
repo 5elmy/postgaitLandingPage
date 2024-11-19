@@ -11,7 +11,7 @@ export default function ManageShipmentsLandingPage() {
         whileInView={{ opacity: 1, translateY: 0 }}
         initial={{ opacity: 0, translateY: -100 }}
         viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 1.5 , delay:0.7, ease: "easeOut" }}
+        transition={{ duration: 1.5 , delay:0.5, ease: "easeOut" }}
         className='text-[#4D1A2D] font-[Cairo] text-[32px] font-bold text-center'>An integrated control panel to manage your shipments easily and quickly
         </motion.h2>
         <motion.p
@@ -60,9 +60,9 @@ export default function ManageShipmentsLandingPage() {
     </motion.p>
     <motion.div 
      whileInView={{ opacity: 1 , translateX:0 }}
-     initial={{ opacity: 0 , translateX:140 }}
+     initial={{ opacity: 0 , translateX:100 }}
      viewport={{ once: true, amount: 0.5 }}
-     transition={{ duration: 1.5 , delay:0.7, ease: "easeOut" }} 
+     transition={{ duration: 1.5 , ease: "easeOut" }} 
     
     className='md:flex relative  justify-center items-center my-10 md:my-8 w-[330px] md:w-full '>
         <p className='transform absolute top-5 -left-12 md:left-[220px] -rotate-45  bg-[#FC746C] rounded-md h-[35px] w-[180px]  md:w-[180px] text-center flex justify-center items-center gap-2 text-white'>  Dashboard</p>
@@ -72,9 +72,9 @@ export default function ManageShipmentsLandingPage() {
     </motion.div>
     <motion.div 
          whileInView={{ opacity: 1 , translateX:0 }}
-         initial={{ opacity: 0 , translateX:-140 }}
+         initial={{ opacity: 0 , translateX:-100 }}
          viewport={{ once: true, amount: 0.5 }}
-         transition={{ duration: 1.5 , delay:0.7, ease: "easeOut" }} 
+         transition={{ duration: 1.5 , ease: "easeOut" }} 
     className='md:flex relative justify-center items-center my-10 md:my-8 w-[330px] md:w-full '>
         <p className='transform absolute top-5 -right-10 md:right-[220px] rotate-45  bg-[#FC746C] rounded-md h-[35px] w-[180px]  md:w-[180px] text-center flex justify-center items-center gap-2 text-white'>  Shop</p>
 
