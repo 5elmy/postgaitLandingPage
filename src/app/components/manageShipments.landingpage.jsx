@@ -6,7 +6,7 @@ import {motion} from "framer-motion"
 export default function ManageShipmentsLandingPage() {
   return (
     <>
-    <section className='p-8 md:p-0 overflow-hidden'>
+    <section className='p-8 md:p-0 '>
         <motion.h2
         whileInView={{ opacity: 1, translateY: 0 }}
         initial={{ opacity: 0, translateY: -100 }}
@@ -59,8 +59,8 @@ export default function ManageShipmentsLandingPage() {
 
     </motion.p>
     <motion.div 
-     whileInView={{ opacity: 1 , translateX:0 }}
-     initial={{ opacity: 0 , translateX:100 }}
+     whileInView={{ opacity: 1  }}
+     initial={{ opacity: 0  }}
      viewport={{ once: true, amount: 0.5 }}
      transition={{ duration: 1.5 , ease: "easeOut" }} 
     
@@ -71,8 +71,8 @@ export default function ManageShipmentsLandingPage() {
 
     </motion.div>
     <motion.div 
-         whileInView={{ opacity: 1 , translateX:0 }}
-         initial={{ opacity: 0 , translateX:-100 }}
+         whileInView={{ opacity: 1  }}
+         initial={{ opacity: 0  }}
          viewport={{ once: true, amount: 0.5 }}
          transition={{ duration: 1.5 , ease: "easeOut" }} 
     className='md:flex relative justify-center items-center my-10 md:my-8 w-[330px] md:w-full '>
