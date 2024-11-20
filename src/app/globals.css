@@ -16,7 +16,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: white !important;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -28,7 +28,8 @@ body {
   background-image: url("./images/customerReviews/ttt.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
 
- 
- 
+.about {
+  background-image: url("./images/About/about.svg");
 }

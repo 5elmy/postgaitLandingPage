@@ -10,6 +10,7 @@ import FeaturesLandingPage from '../components/Features.LandingPage';
 import ManageShipmentsLandingPage from '../components/manageShipments.landingpage';
 import PartnersLandingPages from '../components/partners.landingPage';
 import WorkLandingPage from '../components/WorkLandingPage';
+import SignUpBanner from '../components/signupBanner'
 
 
 
@@ -17,7 +18,7 @@ import WorkLandingPage from '../components/WorkLandingPage';
 export default function Home() {
     
   return (
-    <div className=''>
+    <div className='bg-white'>
 
     {/* home 1 */}
 <section
@@ -71,7 +72,7 @@ className=" flex items-center font-[sarabun] rounded border-none bg-[#FC746C]  p
     </div>
   </div>
 </section>
-
+<SignUpBanner/>
 <AboutLandingPage/>
 
 <FeaturesLandingPage/>

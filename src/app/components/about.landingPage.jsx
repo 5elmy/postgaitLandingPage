@@ -4,24 +4,7 @@ import man from "../images/Home/man23years.svg"
 import Image from 'next/image'
 import {motion} from "framer-motion"
 export default function AboutLandingPage() {
-    // const [isVisible, setIsVisible] = useState(false);
-    // const sectionRef = useRef(null);
-    // useEffect(() => {
-    //     const observer = new IntersectionObserver(
-    //       ([entry]) => setIsVisible(entry.isIntersecting),
-    //       { threshold: 0.5 } // Trigger when 50% of the section is visible
-    //     );
-    
-    //     if (sectionRef.current) {
-    //       observer.observe(sectionRef.current);
-    //     }
-    
-    //     return () => {
-    //       if (sectionRef.current) {
-    //         observer.unobserve(sectionRef.current);
-    //       }
-    //     };
-    //   }, []);
+  
     
   return (
     <section  className='grid grid-cols-12 gap-5 py-12 relative z-10 overflow-hidden '>
