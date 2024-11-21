@@ -16,7 +16,7 @@ export default function FeaturesLandingPage() {
     
   return (
     <section    className="  relative ">
-       <motion.h2 className='bg-red-600 text-center text-white'
+       <motion.h2 className='bg-[#4D1A2D] text-center text-white'
   whileInView={{ opacity: 1, translateY: 0 }}
   initial={{ opacity: 0, translateY: -100 }}
   viewport={{ once: true, amount: 0.5 }}
@@ -74,8 +74,8 @@ The features of Postgait are many waiting for you!
 
     <div className="mt-8  grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       <motion.div 
-        whileInView={{ opacity: 1, translateY: 0 }}
-        initial={{ opacity: 0, translateY: -100 }}
+        whileInView={{ opacity: 1, translateX: 0 }}
+        initial={{ opacity: 0, translateX: 100 }}
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 1, ease: "easeOut" }}
       
@@ -91,10 +91,10 @@ The features of Postgait are many waiting for you!
 
       </motion.div>
       <motion.div
-       whileInView={{ opacity: 1, translateY: 0 }}
-       initial={{ opacity: 0, translateY: -100 }}
+       whileInView={{ opacity: 1, translateX: 0 }}
+       initial={{ opacity: 0, translateX: 100 }}
        viewport={{ once: true, amount: 0.5 }}
-       transition={{ duration: 1, ease: "easeOut" }}
+       transition={{ duration: 1, delay:0.4, ease: "easeOut" }}
         className="block bg-[#FFDDDD]  rounded-xl  p-8 shadow-lg transition  hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
        <div className='flex justify-center items-center '>
@@ -107,10 +107,10 @@ The features of Postgait are many waiting for you!
       </motion.div>
       <motion.div
        
-       whileInView={{ opacity: 1, translateY: 0 }}
-       initial={{ opacity: 0, translateY: -100 }}
+       whileInView={{ opacity: 1, translateX: 0 }}
+       initial={{ opacity: 0, translateX: 100 }}
        viewport={{ once: true, amount: 0.5 }}
-       transition={{ duration: 1, ease: "easeOut" }}
+       transition={{ duration: 1, delay:0.8, ease: "easeOut" }}
         className="block bg-[#FFDDDD]  rounded-xl  p-8 shadow-lg transition  hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
        <div className='flex justify-center items-center '>
@@ -123,10 +123,10 @@ The features of Postgait are many waiting for you!
       </motion.div>
 
       <motion.div
-       whileInView={{ opacity: 1, translateY: 0 }}
-       initial={{ opacity: 0, translateY: -200 }}
+       whileInView={{ opacity: 1, translateX: 0 }}
+       initial={{ opacity: 0, translateX: 120 }}
        viewport={{ once: true, amount: 0.5 }}
-       transition={{ duration: 1.5, delay:0.5 , ease: "easeOut" }}
+       transition={{ duration: 1.5 ,delay:0.2 ,ease: "easeOut" }}
 
         className="block bg-[#FFDDDD]  rounded-xl  p-8 shadow-lg transition  hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
@@ -139,10 +139,10 @@ The features of Postgait are many waiting for you!
 
       </motion.div>
       <motion.div
-       whileInView={{ opacity: 1, translateY: 0 }}
-       initial={{ opacity: 0, translateY: -200 }}
+       whileInView={{ opacity: 1, translateX: 0 }}
+       initial={{ opacity: 0, translateX: 130 }}
        viewport={{ once: true, amount: 0.5 }}
-       transition={{ duration: 1.5, delay:0.5 , ease: "easeOut" }}
+       transition={{ duration: 1.5 , delay:0.6 , ease: "easeOut" }}
         className="block bg-[#FFDDDD]  rounded-xl  p-8 shadow-lg transition  hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
        <div className='flex justify-center items-center '>
@@ -154,10 +154,10 @@ The features of Postgait are many waiting for you!
 
       </motion.div>
       <motion.div
-       whileInView={{ opacity: 1, translateY: 0 }}
-       initial={{ opacity: 0, translateY: -200 }}
+       whileInView={{ opacity: 1, translateX: 0 }}
+       initial={{ opacity: 0, translateX: 130 }}
        viewport={{ once: true, amount: 0.5 }}
-       transition={{ duration: 1.5, delay:0.5 , ease: "easeOut" }}
+       transition={{ duration: 1.5 ,delay:1 ,ease: "easeOut" }}
         className="block bg-[#FFDDDD]  rounded-xl  p-8 shadow-lg transition  hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
        <div className='flex justify-center items-center '>

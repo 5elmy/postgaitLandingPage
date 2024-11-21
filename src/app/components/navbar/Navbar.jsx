@@ -183,7 +183,7 @@ export default function Navbar() {
               <ul className="flex items-center gap-6 text-sm font-medium">
                 <li>
                   <Link
-                    href="/home"
+                    href="/Home"
                     className="text-gray-600 transition hover:text-gray-800"
                   >
                     Home

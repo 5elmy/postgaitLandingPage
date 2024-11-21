@@ -33,3 +33,15 @@ body {
 .about {
   background-image: url("./images/About/about.svg");
 }
+
+ /* .term {
+  
+  background: linear-gradient(to top, #FC746C 30%, transparent 70%), url("./images/Terms/bg.svg");
+ } */
+
+ .term {
+  background: linear-gradient(to top, #FC746C ,transparent    ), url("./images/Terms/bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
