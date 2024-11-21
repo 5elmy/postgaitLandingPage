@@ -17,7 +17,7 @@ export default function Terms_Conditions() {
 
           <p className="leading-[50px]  font-medium px-5">
             Welcome to Postgait website, these terms and conditions shall be
-            applicable on the website including all it's sections. By using our
+            applicable on the website including all it&apos;s sections. By using our
             website, you agree to be bound by these terms and conditions. If you
             do not agree to the terms and conditions, you must not use the
             website. It is worth noting that Postgait website reserves the right
