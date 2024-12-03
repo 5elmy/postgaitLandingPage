@@ -20,7 +20,7 @@ export default function Blogs() {
 
       </div>
   </div>
-  <div className="flex justify-center    pt-10 ">
+  <div className="flex justify-center pt-10 ">
 
   <div className="w-[95%] md:w-[98%] rounded-md bg-white p-4 py-12 grid grid-cols-12 gap-5">
     <div className="col-span-12 mt-8 md:cil-span-4  lg:col-span-3 ">

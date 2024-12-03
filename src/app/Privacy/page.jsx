@@ -33,10 +33,10 @@ export default function Privacy() {
 
             <Demo body={` Our Privacy Policy will help you understand what information we
               collect at Postgait and how Postgait uses it. Reference to the
-              company in this Privacy Policy is inclusive of 'we',
-             'our' or 'us', and at all times refers to
+              company in this Privacy Policy is inclusive of we ,
+             our or us, and at all times refers to
               Postgait, the Company which provides the Services. When we talk
-              about 'Services' in this Privacy Policy, we are referring
+              about &rsquo;Services&rsquo; in this Privacy Policy, we are referring
               to our online platform, for providing Secondment Services. Our
               Services are currently available for use via a web browser or
               applications specific to your desktop or mobile device.`} header={"Introduction:"}/>
@@ -91,12 +91,12 @@ How We Use Your Information:
             Customer Data:
             </p>
             <p className="font-[Barlow] font-medium text-[16px] text-[#263238]">
-            the company may access and use Customer Data as reasonably necessary and in accordance with Customer's instructions
+            the company may access and use Customer Data as reasonably necessary and in accordance with Customer&rsquo;s instructions
             </p>
             <div className="px-5">
               <ul className="list-disc pl-5">
                 <li className=" leading-[49px] font-[Poppins]  font-medium">
-                to prevent or address Services, security, technical issues or at a Customer's request in connection with customer support matters;
+                to prevent or address Services, security, technical issues or at a Customer&rsquo;s request in connection with customer support matters;
                 </li>
                 <li className=" leading-[49px] font-[Poppins]  font-medium">
                 as required by law;
@@ -168,7 +168,7 @@ about new Services features, or other news about the company. You may opt out of
                 With affiliates. We may engage affiliates in our corporate group to process Customer Data.
                 </li>
                 <li className=" leading-[49px] font-[Poppins]  font-medium">
-                With third party integrations. the company may act on our Customer's behalf share Customer Data with the provider of an integration added by Customer or the company. The company is not responsible for how the provider of an integration may collect use, and share Customer Data.
+                With third party integrations. the company may act on our Customer&rsquo;s behalf share Customer Data with the provider of an integration added by Customer or the company. The company is not responsible for how the provider of an integration may collect use, and share Customer Data.
                   </li>
                
               </ul>
@@ -203,7 +203,7 @@ about new Services features, or other news about the company. You may opt out of
             <div className="px-5">
               <ul className="list-disc pl-5">
               <li className=" leading-[49px] font-[Poppins]  font-medium">
-              During changes to our business structure: If we engage in a merger, acquisition, bankruptcy, dissolution, reorganization, sale of some of the company's assets, financing acquisition or of all or a portion of our business, a similar transaction or proceeding or steps in contemplation of these activities.
+              During changes to our business structure: If we engage in a merger, acquisition, bankruptcy, dissolution, reorganization, sale of some of the company&rsquo;s assets, financing acquisition or of all or a portion of our business, a similar transaction or proceeding or steps in contemplation of these activities.
                 </li>
                 <li className=" leading-[49px] font-[Poppins]  font-medium">
                 
@@ -242,7 +242,7 @@ about new Services features, or other news about the company. You may opt out of
                   />
                   <Demo
                   header={"Contact The Company:"}
-                  body={"Please feel free to contact us, if you have any questions about the company's Privacy Policy or practices. You may contact us at support@postgait.com."}
+                  body={"Please feel free to contact us, if you have any questions about the company Privacy Policy or practices. You may contact us at support@postgait.com."}
                   />
 
           </div>
