@@ -33,6 +33,14 @@ body {
 .about {
   background-image: url("./images/About/about.svg");
 }
+.privacy {
+  background-image: url("./images/Privacy/privacy.svg");
+  /* background: linear-gradient(to top, rgba(0,0,0,.2) 10%, transparent 70%), url("./images/Privacy/privacy.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+
+}
 
  /* .term {
   
@@ -40,8 +48,15 @@ body {
  } */
 
  .term {
-  background: linear-gradient(to top, #FC746C ,transparent    ), url("./images/Terms/bg.svg");
+  background: linear-gradient(to top, #FC746C 30%, transparent 70%), url("./images/Terms/bg.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  
+}
+ .blog{
+  background-image:  url("./images/Blogs/pexels-mikhail-nilov-6894103.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }

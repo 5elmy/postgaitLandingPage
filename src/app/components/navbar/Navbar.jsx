@@ -191,7 +191,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                    href="/about"
+                    href="/About"
                     className="text-gray-600 transition hover:text-gray-800"
                   >
                     About
@@ -207,7 +207,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                    href="/blogs"
+                    href="/Blogs"
                     className="text-gray-600 transition hover:text-gray-800"
                   >
                     Blogs
@@ -289,7 +289,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  href="/blogs"
+                  href="/Blogs"
                   className="block text-gray-600 transition hover:text-gray-800"
                 >
                   Blogs

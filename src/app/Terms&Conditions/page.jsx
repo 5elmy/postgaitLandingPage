@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Terms_Conditions() {
   return (
-    <div className="term  pt-5 pb-12 ">
-      <div className="h-[450px] flex  justify-center items-center">
-        <p className="text-white font-[Segoe UI] font-semibold text-[37px]">
+    <div className="term  pt-5 md:pb-12 ">
+      <div className="md:h-[450px] py-12 md:bg-transparent flex justify-center items-center">
+        <p className="text-white text-center p-2 md:p-0 font-[Segoe UI] font-semibold text-[37px] mb-8 md:mb-0">
           Welcome to Our Terms and Conditions{" "}
         </p>
       </div>
 
-      <div className="bg-gradient-to-t from-[#FC746C] to-[#0000] w-full flex justify-center items-center">
-        <div className="w-[97%] bg-white rounded-[8px] p-4">
+      <div className="bg-gradient-to-t from-[#FC746C] to-[#0000] w-full  py-5 flex justify-center items-center">
+        <div className="w-[95%] md:w-[97%] bg-white rounded-md md:p-4">
           <p className="font-[Barlow] fint-bold text-[25px] text-[#FC746C]">
             Introduction:
           </p>
