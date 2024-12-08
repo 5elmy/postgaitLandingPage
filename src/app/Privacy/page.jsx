@@ -1,5 +1,5 @@
 import React from "react";
-import Demo from "../components/Demo";
+
 
 
 
@@ -21,7 +21,8 @@ export default function Privacy() {
           
 
 
-            <Demo body={` Our Privacy Policy will help you understand what information we
+              <p className="font-[Barlow] fint-bold text-[25px] text-[#FC746C]">Introduction:</p>
+              <p className="leading-[40px]  font-medium px-5">Our Privacy Policy will help you understand what information we
               collect at Postgait and how Postgait uses it. Reference to the
               company in this Privacy Policy is inclusive of we ,
              our or us, and at all times refers to
@@ -29,7 +30,7 @@ export default function Privacy() {
               about &#39;Services&#39; in this Privacy Policy, we are referring
               to our online platform, for providing Secondment Services. Our
               Services are currently available for use via a web browser or
-              applications specific to your desktop or mobile device.`} header={"Introduction:"}/>
+              applications specific to your desktop or mobile device.</p>
 
 <p className="font-[Barlow] fint-bold text-[25px] text-[#FC746C]">
 Information we collect and receive:
@@ -68,11 +69,12 @@ Third party data: the company may receive information from affiliates in our cor
 </ul>
 
 </div>
-
-<Demo header={"Our Cookie Policy:"}  body={`The company used cookies and similar technologies to record log data. We use both session based and persistent cookies.<br/>
+<p className="font-[Barlow] fint-bold text-[25px] text-[#FC746C]">Our Cookie Policy:</p>
+<p className="leading-[40px]  font-medium px-5">The company used cookies and similar technologies to record log data. We use both session based and persistent cookies.<br/>
 Cookies are small text files sent by us to your computer and from your computer or mobile device to us each time you visit our website or use our application. They are unique to your account or your browser. Session based cookies last only while your browser is open and are automatically deleted when you close your browser. Persistent cookies last until you or your browser delete them or until they expire.
 Some cookies are associates with your account and personal information in order to remember that you are logged in. Other cookies are not tied to your account but are unique and allow us to carry our site/application analytics and customization among other similar things.
-The company sets and accesses our own cookies on the domains operated by the company and its corporate affiliates. We do not currently recognize or respond to browser initiated do not track signals due to lack of consistence in industry standard compliance.`}/>
+The company sets and accesses our own cookies on the domains operated by the company and its corporate affiliates. We do not currently recognize or respond to browser initiated do not track signals due to lack of consistence in industry standard compliance.</p>
+
 
 <p className="font-[Barlow] fint-bold text-[25px] text-[#FC746C]">
 How We Use Your Information:
@@ -224,16 +226,22 @@ about new Services features, or other news about the company. You may opt out of
               You understand that the company does not provide any warranty, guarantee or representation of any kind concerning our ability to control, collect, correct, access, process, use, store, protect or transfer any personal information or concerning the existence or effectiveness of any security measures undertaken by Us. You agree that the company will not be liable for any claims, losses, or damages of any kind whatsoever which may result from the access, disclosure, use or modification by any party not authorized or authorized by us or the introduction of malware (including without limitation of viruses and worms) or other harmful elements to the system and their possible effects on personal information contained on the website or the Mobile App. By accessing the website or the Mobile App you acknowledge and understand to assume these risks.
               </p>
 
-              <Demo header={"Limitation of Liability: "} body={"In no event will the company, its affiliates, partners and their respective employees, officers, directors or insurers be liable to you or to any other person for any costs, damages (including any personal, exemplary, incidental, special, indirect or consequential damages) or liability of any nature, arising or resulting from the collection, use, transfer, processing or storage of personal information obtained by Us and resulting from your access to and use of the Services through a Web Browser or a Mobile App."} />
-                  <Demo  
-                  header={"Changes to this Privacy Policy:"}
-                  body={"We may change this policy from time to time, and which may be updated on our website or application at our discretion. If you continue to use the Services after those changes are in effect, you agree to the revised changes."}
-                  
-                  />
-                  <Demo
-                  header={"Contact The Company:"}
-                  body={"Please feel free to contact us, if you have any questions about the company Privacy Policy or practices. You may contact us at support@postgait.com."}
-                  />
+              <p className="font-[Barlow] fint-bold text-[25px] text-[#FC746C]">Limitation of Liability: </p>
+
+              <p className="leading-[40px]  font-medium px-5">
+              In no event will the company, its affiliates, partners and their respective employees, officers, directors or insurers be liable to you or to any other person for any costs, damages (including any personal, exemplary, incidental, special, indirect or consequential damages) or liability of any nature, arising or resulting from the collection, use, transfer, processing or storage of personal information obtained by Us and resulting from your access to and use of the Services through a Web Browser or a Mobile App
+              </p>
+              <p className="font-[Barlow] fint-bold text-[25px] text-[#FC746C]">Changes to this Privacy Policy:</p>
+
+              <p className="leading-[40px]  font-medium px-5">
+              We may change this policy from time to time, and which may be updated on our website or application at our discretion. If you continue to use the Services after those changes are in effect, you agree to the revised changes.
+              </p>
+              <p className="font-[Barlow] fint-bold text-[25px] text-[#FC746C]">Contact The Company:</p>
+
+              <p className="leading-[40px]  font-medium px-5">
+              Please feel free to contact us, if you have any questions about the company Privacy Policy or practices. You may contact us at support@postgait.com.
+              </p>
+
 
           </div>
         </div>
