@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
-import { Demo } from '../Privacy/page'
-import { redirect } from 'next/navigation'
+
 
 export default function Blogs() {
    
