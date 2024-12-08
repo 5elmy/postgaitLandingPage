@@ -19,14 +19,14 @@ export default function Privacy() {
   return (
     <section className="relative min-h-screen ">
       <div className="privacy bg-cover bg-center min-h-screen   "></div>
-      <div className=" bg-gradient-to-t from-[#FC746C] to-[rgba(0,0,0,0.1)]  w-full min-h-[1610vh] lg:min-h-[500vh] py-5 mt-3 "></div>
+      <div className=" bg-gradient-to-t from-[#FC746C] to-[rgba(0,0,0,0.1)]  w-full min-h-[1610vh] lg:min-h-[510vh] py-5 mt-3 "></div>
       <div className="absolute inset-0    bg-[rgba(0,0,0,0.2)]">
         <div className="h-[400px]  flex justify-center items-center">
-          <p className="font-semibold text-[39px] text-white">
+          <p className="font-semibold text-center text-[39px] text-white">
             Welcome to Our Privacy Policy
           </p>
         </div>
-        <div className="flex justify-center py-10 items-center bg-gradient-to-t from-[#FC746C] to-[rgba(0,0,0,0.1)] shadow-2xl pt-10 shadow-[#FC746C]">
+        <div className="flex justify-center py-10 items-center bg-gradient-to-t from-[#FC746C] to-[rgba(0,0,0,0.1)] shadow-md pt-10 shadow-[#FC746C]">
           <div className="w-[95%] md:w-[98%] rounded-md bg-white p-4 shadow-lg shadow-[#FC746C]">
           
 

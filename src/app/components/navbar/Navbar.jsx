@@ -197,14 +197,30 @@ export default function Navbar() {
                     About
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="/contact"
                     className="text-gray-600 transition hover:text-gray-800"
                   >
                     Contact Us
                   </Link>
-                </li>
+                </li> */}
+                  <li>
+                <Link
+                  href="/Privacy"
+                  className="block text-gray-600 transition hover:text-gray-800"
+                >
+                  Privacy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Terms&Conditions"
+                  className="block text-gray-600 transition hover:text-gray-800"
+                >
+                 Terms&Conditions
+                </Link>
+              </li>
                 <li>
                   <Link
                     href="/Blogs"
@@ -281,12 +297,28 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
+                  href="/Privacy"
+                  className="block text-gray-600 transition hover:text-gray-800"
+                >
+                  Privacy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Terms&Conditions"
+                  className="block text-gray-600 transition hover:text-gray-800"
+                >
+                 Terms&Conditions
+                </Link>
+              </li>
+              {/* <li>
+                <Link
                   href="/contact"
                   className="block text-gray-600 transition hover:text-gray-800"
                 >
                   Contact Us
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/Blogs"
